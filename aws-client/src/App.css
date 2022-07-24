@@ -1,0 +1,7 @@
+.app {
+  background: url('./images/logo192.png');
+  height : 2000vh;
+  width: 2000wh;
+  background-repeat: no-repeat;
+  background-position: 'center';
+}
