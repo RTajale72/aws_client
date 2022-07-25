@@ -1,13 +1,22 @@
 .navbar a {
     color: white;
-   font-size: 40px;
-   display: inline;
+   font-size: 20px;
+   display: flex;
    padding-right: 25px;
    text-decoration: none;
 }
 
+.loginandsignup a {
+    color: white;
+    font-size: 10px;
+    /* display: inline;
+    padding-right: 25px;
+    text-decoration: none; */
+}
+
+/* 
 a {
     padding-top: 25px;
     color: transparent;
     font-style: italic;
-}
+} */
