@@ -1,0 +1,13 @@
+.navbar a {
+    color: white;
+   font-size: 40px;
+   display: inline;
+   padding-right: 25px;
+   text-decoration: none;
+}
+
+a {
+    padding-top: 25px;
+    color: transparent;
+    font-style: italic;
+}
