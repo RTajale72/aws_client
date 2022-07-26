@@ -56,7 +56,7 @@ const Search = styled('div')(({ theme }) => ({
 function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color="transparent">
+      <AppBar id="appbar" position="static" color="transparent">
         <Toolbar>
           <IconButton
             size="large"
