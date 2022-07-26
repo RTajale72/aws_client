@@ -1,8 +1,14 @@
-.app {
-  background: url('./images/3.jpg')  no-repeat center fixed ;
-  /* object-fit: cover; */
-  height: 800px; 
-  background-size: cover;
+#root {
+  flex-grow: 1;
+  display: flex;
+}
 
+
+.app {
+  flex-grow: 1;
+  background: url('./images/3.jpg')  no-repeat center fixed ;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
 
 }
