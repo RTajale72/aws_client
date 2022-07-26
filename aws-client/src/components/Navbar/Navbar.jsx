@@ -9,9 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
-import { BrowserRouter as Route, Link } from "react-router-dom";
-import { Switch } from '@mui/material';
-import Login from '../Login/login';
+
 
 
 
@@ -87,10 +85,6 @@ function Navbar() {
           <Button href="/about" color="inherit">About</Button>
           <Button href="/login" color="inherit">Login</Button>
           <Button href="/signup" color="inherit">Sign Up</Button>
-          <Switch>
-          <Route path="/login" component={<Login />}>Users</Route>
-          </Switch>
-          <Button href="/users">{Users}</Button>
         </Toolbar>
       </AppBar>
     </Box>
@@ -102,13 +96,5 @@ function Home() {
         <Home />
     )
 }
-function Users() {
-  return (
-    <div>
-      <nav>
-        <Link to="me">My Profile</Link>
-      </nav>
-    </div>
-  );
-}
+
 export default Navbar
