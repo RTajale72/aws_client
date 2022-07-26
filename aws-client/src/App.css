@@ -1,5 +1,5 @@
 
-body {
+.app {
   flex-grow: 1;
   background: url('./images/3.jpg')  no-repeat center fixed ;
   width: 100%;
