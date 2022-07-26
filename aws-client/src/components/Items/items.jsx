@@ -1,13 +1,13 @@
+
 import Navbar from "../Navbar/Navbar";
 
-function Login() {
+function Items() {
     return (
         <div>
         <Navbar />  
-        <h1>This is a login page</h1>
+        <h1>This is a Items page</h1>
   </div>
-      
     )
 }
 
-export default Login;
+export default Items

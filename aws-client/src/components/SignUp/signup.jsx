@@ -1,14 +1,12 @@
-
+import Navbar from "../Navbar/Navbar";
 
 function SignUp() {
   
         return(
-            <nav class="bg-dark navbar-dark navbar">
-            <div className="row col-12 d-flex justify-content-center text-white">
-                <h3>Registration</h3>
-            </div>
-        </nav>
-           
+                <div>
+                <Navbar />  
+                <h1>This is a Signup page</h1>
+          </div>
         )
     
 }
